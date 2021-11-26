@@ -1,0 +1,17 @@
+{
+  "name": "uniswap-v2-periphery",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle deploy",
+    "migrate": "truffle migrate"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "1.1.1"
+  }
+}
